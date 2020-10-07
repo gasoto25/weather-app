@@ -2,16 +2,21 @@ h1 {
   color: #1a90e4;
 }
 
+html,
 body {
   background-color: #272727;
   max-width: 75vw;
-  min-height: 100vh;
+  height: 100%;
   margin: 0 auto;
   padding: 0 16px;
 }
 
 p {
   color: white;
+}
+
+.full-height {
+  height: 30%;
 }
 
 .btn-pink {
