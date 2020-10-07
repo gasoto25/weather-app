@@ -1,12 +1,6 @@
-
-
-
 const weatherForm = document.querySelector('form');
 const search = document.getElementById('citySearch');
 const weatherMessage = document.getElementById('weatherMessage');
-
-
-
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();

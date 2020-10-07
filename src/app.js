@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3000;
 const hbs = require('hbs');
 const envPath = path.join(__dirname, './.env');
 require('dotenv').config({ path: envPath });
@@ -75,6 +76,6 @@ app.get('*', (req, res) => {
     })
 });
 
-app.listen(3000, () => {
-    console.log('app is listening on port 3000');
+app.listen(port, () => {
+    console.log(`app is listening on port ${port}`);
 });
