@@ -1,0 +1,20 @@
+h1 {
+  color: #1a90e4;
+}
+
+body {
+  background-color: #272727;
+  max-width: 75vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+p {
+  color: white;
+}
+
+.btn-pink {
+  color: white;
+  background-color: #1a90e4;
+}
